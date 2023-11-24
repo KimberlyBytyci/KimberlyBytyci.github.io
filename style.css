@@ -15,7 +15,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 80px;
     width: 100%;
 }
 #banner .title
@@ -24,19 +23,19 @@
     text-align: center;
     color: white;
     font-family: 'Copperplate';
-    letter-spacing: 4px;
-    min-width: 800px;
-    margin: auto;
-    border-radius: 5px;
+    font-size: 1vw;
+    letter-spacing: 1em;
+    min-width: 100%;
     overflow: hidden;
 }
 .sticky-header {
     overflow: hidden;
-    min-width: 580px;
+    max-width: 100%;
+    min-width: 100%;
     position: sticky;
     top: 0;
     left: 0;
-    margin-top: 90px;
+    margin-top: 6%;
     background-color: rgb(48, 48, 48);
     border-radius: 20px;
     font-family: Calibri;
@@ -47,18 +46,24 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 27px;
+    padding: 3% 0;
     text-decoration: none;
-    border: 1px solid darkgray;
-    border-top-style: none;
-    border-bottom-style: none;
-    letter-spacing: 2px;
+    letter-spacing: .2em;
+    max-width: 100%;
+    width: 17%;
+    min-width: 17%;
+    min-height: 10%;
 }
-.return
-{
-    padding: 11px !important;
+.return {
+    padding: 2% .8% .8% .8% !important;
     border: none !important;
-    height: 50px;
+    max-width: 100%;
+}
+
+.return img
+{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .sticky-header a:hover
