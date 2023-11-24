@@ -4,13 +4,18 @@
     width: 100%;
     background-color: rgb(218, 218, 218);
 }
+#wrapper
+{
+    margin-left: auto;
+    margin-right: auto;
+}
 #banner {
     background: url("topBanner.jpg") no-repeat;
     background-size: cover;
     position: absolute;
     top: 0;
     left: 0;
-    height: 10%;
+    height: 80px;
     width: 100%;
 }
 #banner .title
@@ -20,13 +25,14 @@
     color: white;
     font-family: 'Copperplate';
     letter-spacing: 4px;
-    width: fit-content;
+    min-width: 800px;
     margin: auto;
     border-radius: 5px;
+    overflow: hidden;
 }
 .sticky-header {
     overflow: hidden;
-    width: 100%;
+    min-width: 580px;
     position: sticky;
     top: 0;
     left: 0;
