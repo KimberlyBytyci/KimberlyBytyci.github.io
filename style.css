@@ -39,6 +39,7 @@
     background-color: rgb(48, 48, 48);
     border-radius: 20px;
     font-family: Calibri;
+    font-size: 1.2em;
 }
 
 .sticky-header a {
@@ -46,24 +47,26 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 3% 0;
     text-decoration: none;
     letter-spacing: .2em;
     max-width: 100%;
     width: 17%;
     min-width: 17%;
-    min-height: 10%;
+    min-height: 100%;
+}
+.option
+{
+    padding: 1.7%;
 }
 .return {
-    padding: 2% .8% .8% .8% !important;
     border: none !important;
-    max-width: 100%;
 }
 
 .return img
 {
     max-width: 100%;
     max-height: 100%;
+    padding: 6% 5% 4% 5%;
 }
 
 .sticky-header a:hover
