@@ -42,18 +42,18 @@
     font-family: Calibri;
 }
 
-    .sticky-header a {
-        float: left;
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 27px;
-        text-decoration: none;
-        border: 1px solid darkgray;
-        border-top-style: none;
-        border-bottom-style: none;
-        letter-spacing: 2px;
-    }
+.sticky-header a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 27px;
+    text-decoration: none;
+    border: 1px solid darkgray;
+    border-top-style: none;
+    border-bottom-style: none;
+    letter-spacing: 2px;
+}
 .return
 {
     padding: 11px !important;
@@ -74,14 +74,14 @@
     color: black;
     font-family: 'Courier New';
     overflow: hidden;
-    width: contain;
+    min-width: contain;
     margin-top: 10px;
 }
 #main-page h1
 {
-    padding: 100px 0px 10px 100px;
-    min-width: 700px;
-    width: 700px;
+    padding: 100px 0px 10px 50px;
+    min-width: 1400px;
+    width: 1400px;
 }
 #main-page h2
 {
@@ -100,4 +100,19 @@
     margin-top: 0px;
     min-width: 700px;
     width: 700px;
+}
+#main-page img
+{
+    float: right;
+    height: 450px;
+    width: 550px;
+    margin-right: 50px;
+    overflow: hidden;
+    min-width: 550px;
+    border-radius: 20px;
+}
+
+#main-page p
+{
+    margin: 250px 0px 10px 50px;
 }
