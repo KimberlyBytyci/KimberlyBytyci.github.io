@@ -71,16 +71,15 @@
     color: rgb(204, 204, 204);
 }
 
-#main-page
-{
-    background-color: rgb(160, 160, 160);
+#main-page {
+    background-image: linear-gradient(rgb(190, 190, 190),rgb(160, 160, 160));
     border-radius: 10px;
     color: black;
     font-family: 'Courier New';
     overflow: hidden;
     max-width: 100%;
     min-height: fit-content;
-    margin-top: 10px;
+    margin-top: 1%;
     height: 100%;
 }
 #main-page h1
@@ -165,9 +164,8 @@
 {
     font-size: 2vw;
 }
-#skills
-{
-    background-color: rgb(160, 160, 160);
+#skills {
+    background-image: linear-gradient(rgb(190, 190, 190),rgb(160, 160, 160));
     border-radius: 10px;
     color: black;
     font-family: 'Courier New';
@@ -193,11 +191,37 @@
     text-align: left;
     list-style-type: none;
     padding-bottom: 3%;
-    padding-left: 7%;
+    padding-left: 21%;
     padding-right: 7%;
     font-size: 1vw;
 }
 #skills li
 {
+    padding-bottom: 2%;
+}
+
+#about-me
+{
+    background-image: linear-gradient(rgb(160, 160, 160),rgb(190, 190, 190));
+    border-radius: 10px;
+    color: black;
+    font-family: 'Courier New';
+    font-weight: bold;
+    overflow: hidden;
+    max-width: 100%;
+    min-height: fit-content;
+    margin-top: 3%;
+    height: 100%;
+}
+
+.about-me-wrapper
+{
+    text-align: center;
+    padding: 3%;
+    font-size: 1vw;
+    padding-bottom: 8%;
+}
+#about-me h1 {
+    font-size: 4vw;
     padding-bottom: 2%;
 }
