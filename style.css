@@ -119,3 +119,43 @@
     margin: 13% 0 1% 5%;
     font-size: 1vw;
 }
+
+#projects {
+    background: url("software engineer photo.jpg") no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Courier New';
+    font-weight: bold;
+    overflow: hidden;
+    max-width: 100%;
+    min-height: fit-content;
+    margin-top: 3%;
+    height: 100%;
+}
+.projects-wrapper
+{
+    background-color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    padding: 3%;
+}
+
+#projects ul
+{
+    list-style-type: none;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#projects li
+{
+    padding-bottom: 1%;
+    font-size: 1vw;
+}
+#projects h1
+{
+    font-size: 3vw;
+}
+#projects h2 {
+    font-size: 2vw;
+}
